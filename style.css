@@ -8,6 +8,7 @@
 }
 body {
   color: #fff;
+  background: #09001d;
 }
 
 .header {
@@ -20,7 +21,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .logo {
@@ -47,10 +48,23 @@ body {
 .main {
   min-height: 100vh;
   background: url("bg.PNG") no-repeat;
+  background-size: cover;
+  background-position: center;
+  pointer-events: auto;
+  transition: 0.3s ease;
+}
+
+.main.active {
+  filter: blur(15px);
+  pointer-events: none;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
 }
 
 .home {
-  height: 100vh;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -58,10 +72,15 @@ body {
 }
 
 .home-content {
+  height: 100vh;
   max-width: 600px;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding-top: 80px
 }
 
 .home-content h1 {
@@ -101,7 +120,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(0.9);
   width: 500px;
   background: #2e494f;
   border-radius: 6px;
@@ -163,4 +182,9 @@ body {
 .popup-info .btn-group .info-btn:nth-child(2) {
   background: #c40094;
   color: #fff;
+}
+
+.quis-section {
+  width: 100%;
+  background: green;
 }

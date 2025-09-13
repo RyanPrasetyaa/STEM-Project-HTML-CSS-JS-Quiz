@@ -15,63 +15,62 @@
                 <a href="#" class="logo">Quiz.</a>
 
                 <nav class="navbar">
-                    <a href="#" class="active">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Service</a>
-                    <a href="#">Contact</a>
-
+                <a href="index.html" class="active">Beranda</a>
+                <a href="about.html">Tentang</a>
+                <a href="contact.html">Kontak</a>
                 </nav>
             </header>
 
-            <div class="coutainer">
+            <div class="container">
                 <section class="quiz-section">
-                        <div class="quis-box">
-                        <h1>Codehal Quis</h1>
+                    <div class="quis-box">
+                        <h1>Front-End Quiz</h1>
                         <div class="quis-header">
-                            <span>Quis Website</span>
-                            <span class="header-score">score 0 / 5 </span>
+                            <span>HTML CSS JS</span>
+                            <span class="header-score">skor 0 / 5 </span>
                         </div>   
 
-                        <h2 class="question-text">What does HTML stands for?</h2>
+                        <h2 class="question-text"></h2>
 
-                        <div class="option-list">
-                            <!--<div class="option">
-                                <span>A,Hyper Type Multi Language</span>
+                        <div class="option-list"></div>
+
+                        <div class="quiz-footer">
+                            <span class="question-total">1 dari 5 Pertanyaan</span>
+                            <button class="next-btn">Next</button>
+                        </div>
+                    </div>
+
+                    <div class="result-box">
+                        <h2>Hasil Quiz!</h2>
+                        <div class="percentage-container">
+                            <div class="circular-progress">
+                                <span class="progress-value">0%</span>
                             </div>
 
-                            <div class="option">
-                                <span>B,Hyper Text Multiple Language</span>
-                            </div>
-
-                            <div class="option">
-                                <span>C,Hyper Text Markup Language</span>
-                            </div>
-                            
-                            <div class="option">
-                                <span>D,Home Text Multi Language</span>
-                            </div> -->
+                            <span class="score-text">Skor kamu 0 dari 5</span>
                         </div>
 
-                            <div class="quiz-footer">
-                                <span class="question-total">1 of 5 Questions</span>
-                                <button class="next-btn">Next</button>
-                            </div>
+                        <div class="buttons">
+                            <button class="tryAgain-btn">Coba lagi</button>
+                            <button class="goHome-btn">Beranda</button>
+                        </div>
+                    </div>
                 </section>
 
                 <section class="home">
                         <div class="home-content">
-                            <h1>Quiz Website</h1>
+                            <h1>Front-End Quiz</h1>
                             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam provident earum modi, 
                                 numquam corrupti reiciendis! Alias nostrum eaque nihil facere sit delectus maxime sed, 
                                 voluptatibus, dolores obcaecati illum odit perferendis.</p>
-                            <button class="start-btn">Start Quiz</button>
+                            <button class="start-btn">Mulai Quiz</button>
                         </div>
                 </section>
         </div>
     </main>
 
 <div class="popup-info">
-    <h2> Quiz Guide</h2>
+    <h2> Petunjuk Quiz</h2>
     <span class="info">1. blablasdadsasadabsdadala1.</span>
     <span class="info">2. blablablassadasdsadsadadasda2.</span>
     <span class="info">3. blablablasdadsadsadasdadaa3.</span>
@@ -79,12 +78,35 @@
 
 
 <div class="btn-group">
-    <button class="info-btn exit-btn">Exit Quis</button>
-    <a href="#" class="info-btn continue-btn">Continue</a>
+    <button class="info-btn exit-btn">Keluar</button>
+    <a href="#" class="info-btn continue-btn">Lanjutkan</a>
     </div>
 </div>
 
         <script src="questions.js"></script>
         <script src="script.js"></script>
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                document.body.classList.add("fade-in");
+
+                const links = document.querySelectorAll("a");
+
+                links.forEach(link => {
+                link.addEventListener("click", function (e) {
+                    const href = this.getAttribute("href");
+
+                    if (href && !href.startsWith("#")) {
+                    e.preventDefault();
+                    document.body.classList.remove("fade-in");
+                    document.body.classList.add("fade-out");
+
+                    setTimeout(() => {
+                        window.location.href = href;
+                    }, 500);
+                    }
+                });
+                });
+            });
+        </script>
     </body>
 </html>

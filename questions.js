@@ -88,4 +88,246 @@ let questions = [
             "D. text-shadow"
         ]
     },
+    { 
+        numb : 9,
+        question : "Atribut HTML yang digunakan untuk memberikan teks alternatif pada gambar adalah?",
+        answer : "B. alt",
+        options : [
+            "A. title",
+            "B. alt",
+            "C. description",
+            "D. caption"
+        ]
+    },
+    { 
+        numb : 10,
+        question : "Tag untuk membuat hyperlink di HTML adalah?",
+        answer : "A. <a>",
+        options : [
+            "A. <a>",
+            "B. <link>",
+            "C. <href>",
+            "D. <url>"
+        ]
+    },
+    { 
+        numb : 11,
+        question : "Cara menambahkan CSS langsung di dalam tag HTML adalah menggunakan atribut?",
+        answer : "A. style",
+        options : [
+            "A. style",
+            "B. css",
+            "C. class",
+            "D. link"
+        ]
+    },
+    { 
+        numb : 12,
+        question : "Properti CSS untuk mengubah ukuran teks adalah?",
+        answer : "C. font-size",
+        options : [
+            "A. btext-style",
+            "B. font-weight",
+            "C. font-size",
+            "D. text-size"
+        ]
+    },
+    { 
+        numb : 13,
+        question : "Properti CSS mana yang digunakan untuk mengubah warna teks?",
+        answer : "C. color",
+        options : [
+            "A. background-color",
+            "B. font-style",
+            "C. color",
+            "D. text-shadow"
+        ]
+    },
+    { 
+        numb : 14,
+        question : "CSS dapat disisipkan ke dalam HTML dengan cara berikut, kecuali?",
+        answer : "D. Server-side CSS",
+        options : [
+            "A. Inline CSS",
+            "B. Internal CSS",
+            "C. External CSS",
+            "D. Server-side CSS"
+        ]
+    },
+    { 
+        numb : 15,
+        question : "Selector CSS #header akan memilih?",
+        answer : "B. Semua elemen dengan id header",
+        options : [
+            "A. Semua elemen dengan class header",
+            "B. Semua elemen dengan id header",
+            "C. Semua elemen header secara umum",
+            "D. Semua elemen di dalam tag header"
+        ]
+    },
+    { 
+        numb : 16,
+        question : "Properti CSS mana yang digunakan untuk mengubah warna teks?",
+        answer : "C. color",
+        options : [
+            "A. background-color",
+            "B. font-style",
+            "C. color",
+            "D. text-shadow"
+        ]
+    },
+    { 
+        numb : 17,
+        question : "Jika ingin teks berada di tengah secara horizontal, gunakan CSS?",
+        answer : "A. text-align: center;",
+        options : [
+            "A. text-align: center;",
+            "B. align-text: middle;",
+            "C. center-text: true;",
+            "D. text-position: center;"
+        ]
+    },
+    { 
+        numb : 18,
+        question : "Properti CSS mana yang digunakan untuk mengubah warna teks?",
+        answer : "C. color",
+        options : [
+            "A. background-color",
+            "B. font-style",
+            "C. color",
+            "D. text-shadow"
+        ]
+    },
+    { 
+        numb : 19,
+        question : "Tag HTML untuk menandai paragraf adalah?",
+        answer : "A. <p>",
+        options : [
+            "A. <p>",
+            "B. <para>",
+            "C. <pg>",
+            "D. <text>"
+        ]
+    },
+    { 
+        numb : 20,
+        question : "Tag HTML untuk menampilkan isi halaman web di browser (bagian utama) adalah?",
+        answer : "B. <body>",
+        options : [
+            "A. <section>",
+            "B. <body>",
+            "C. <main>",
+            "D. <content>"
+        ]
+    },
+    { 
+        numb : 21,
+        question : "Tag HTML yang digunakan untuk menampilkan dropdown list adalah?",
+        answer : "B. <select>",
+        options : [
+            "A. <dropdown>",
+            "B. <select>",
+            "C. <list>",
+            "D. <optionbox>"
+        ]
+    },
+    { 
+        numb : 22,
+        question : "Dalam CSS, properti untuk mengatur garis tepi adalah?",
+        answer : "A. border",
+        options : [
+            "A. border",
+            "B. outline",
+            "C. margin",
+            "D. frame"
+        ]
+    },
+    { 
+        numb : 23,
+        question : "Untuk membuat teks bergaris bawah dengan CSS digunakan properti?",
+        answer : "A. text-decoration",
+        options : [
+            "A. text-decoration",
+            "B. text-style",
+            "C. font-underline",
+            "D. underline"
+        ]
+    },
+    { 
+        numb : 24,
+        question : "Perbedaan relative dan absolute pada CSS position adalah?",
+        answer : "B. Relative mengacu pada posisi normal, absolute mengacu pada parent terdekat yang berposisi",
+        options : [
+            "A. Relative mengikuti parent, absolute selalu mengambang terhadap viewport",
+            "B. Relative mengacu pada posisi normal, absolute mengacu pada parent terdekat yang berposisi",
+            "C. Relative hanya untuk teks, absolute hanya untuk gambar",
+            "D. Tidak ada perbedaanTidak ada perbedaan"
+        ]
+    },
+    { 
+        numb : 25,
+        question : "Jika ingin membuat elemen sejajar secara horizontal dengan fleksibel, digunakan?",
+        answer : "C. Flexbox",
+        options : [
+            "A. Grid Layout",
+            "B. Float",
+            "C. Flexbox",
+            "D. Inline CSS"
+        ]
+    },
+    { 
+        numb : 26,
+        question : "Tag HTML untuk menandai paragraf adalah?",
+        answer : "A. <p>",
+        options : [
+            "A. <p>",
+            "B. <para>",
+            "C. <pg>",
+            "D. <text>"
+        ]
+    },
+    { 
+        numb : 27,
+        question : "CSS Flexbox menggunakan properti utama?",
+        answer : "B. display: flex;",
+        options : [
+            "A. display: block;",
+            "B. display: flex;",
+            "C. display: grid;",
+            "D. display: inline;"
+        ]
+    },
+    { 
+        numb : 28,
+        question : "Pada Flexbox, jika ingin semua item berada di tengah horizontal, gunakan?",
+        answer : "B. justify-content: center;",
+        options : [
+            "A. align-items: center;",
+            "B. justify-content: center;",
+            "C. text-align: center;",
+            "D. place-items: center;"
+        ]
+    },
+    { 
+        numb : 29,
+        question : "CSS Grid diaktifkan dengan?",
+        answer : "C. display: grid;",
+        options : [
+            "A. display: flex;",
+            "B. display: inline-grid;",
+            "C. display: grid;",
+            "D. display: block-grid;"
+        ]
+    },
+    { 
+        numb : 30,
+        question : "Untuk membuat elemen grid secara otomatis menyesuaikan ukuran kolom yang fleksibel, digunakan?",
+        answer : "A. repeat(auto-fit, ...)",
+        options : [
+            "A. repeat(auto-fit, ...)",
+            "B. flex-grow",
+            "C. minmax-fit",
+            "D. auto-grid"
+        ]
+    },
 ]

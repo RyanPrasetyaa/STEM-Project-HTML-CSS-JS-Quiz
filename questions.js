@@ -102,12 +102,12 @@ let questions = [
     { 
         numb : 10,
         question : "Tag untuk membuat hyperlink di HTML adalah?",
-        answer : "A. <a>",
+        answer : "A. &lt;a&gt;",
         options : [
-            "A. <a>",
-            "B. <link>",
-            "C. <href>",
-            "D. <url>"
+            "A. &lt;a&gt;",
+            "B. &lt;link&gt;",
+            "C. &lt;href&gt;",
+            "D. &lt;url&gt;"
         ]
     },
     { 
@@ -201,34 +201,34 @@ let questions = [
     { 
         numb : 19,
         question : "Tag HTML untuk menandai paragraf adalah?",
-        answer : "A. <p>",
+        answer : "A. &lt;p&gt;",
         options : [
-            "A. <p>",
-            "B. <para>",
-            "C. <pg>",
-            "D. <text>"
+            "A. &lt;p&gt;",
+            "B. &lt;para&gt;",
+            "C. &lt;pg&gt;",
+            "D. &lt;text&gt;"
         ]
     },
     { 
         numb : 20,
         question : "Tag HTML untuk menampilkan isi halaman web di browser (bagian utama) adalah?",
-        answer : "B. <body>",
+        answer : "B. &lt;body&gt;",
         options : [
-            "A. <section>",
-            "B. <body>",
-            "C. <main>",
-            "D. <content>"
+            "A. &lt;section&gt;",
+            "B. &lt;body&gt;",
+            "C. &lt;main&gt;",
+            "D. &lt;content&gt;"
         ]
     },
     { 
         numb : 21,
         question : "Tag HTML yang digunakan untuk menampilkan dropdown list adalah?",
-        answer : "B. <select>",
+        answer : "B. &lt;select&gt;",
         options : [
-            "A. <dropdown>",
-            "B. <select>",
-            "C. <list>",
-            "D. <optionbox>"
+            "A. &lt;dropdown&gt;",
+            "B. &lt;select&gt;",
+            "C. &lt;list&gt;",
+            "D. &lt;optionbox&gt;"
         ]
     },
     { 
@@ -278,12 +278,12 @@ let questions = [
     { 
         numb : 26,
         question : "Tag HTML untuk menandai paragraf adalah?",
-        answer : "A. <p>",
+        answer : "A. &lt;p&gt;",
         options : [
-            "A. <p>",
-            "B. <para>",
-            "C. <pg>",
-            "D. <text>"
+            "A. &lt;p&gt;",
+            "B. &lt;para&gt;",
+            "C. &lt;pg&gt;",
+            "D. &lt;text&gt;"
         ]
     },
     { 
